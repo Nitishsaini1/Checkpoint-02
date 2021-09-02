@@ -1,0 +1,477 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* **************custom styles**********8 */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    background-image: url(../media/banner.jpg);
+}
+.social-icon{
+    text-align: center;
+    padding: 25px 0;
+}
+.social-icon a{
+    padding: 10px;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #fff;
+}
+.logo-flex{
+    display: flex;
+    width: 17%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.span{
+    align-self: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #EA513E;
+}
+
+.Pages{
+    align-self: center;
+    margin: 0 10px;
+    display: flex;
+}
+.Pages a{
+    margin: 0 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.home{
+    color: rgb(235, 46, 46);
+}
+/* generic style */
+.digital {
+    text-align: center;
+   padding: 40px 10px;
+   color: #fff;
+}
+.digital h2{
+    font-size: 35px;
+    font-weight:800 ;
+}
+.digital hr{
+    width: 400px;
+    text-align: center;
+
+}
+.digital p{
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.square-box{
+    font-size: 10px;
+    padding: 15px;
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    box-shadow: 0;
+}
+/* three circle */
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.dots span{
+   margin: 0px 5px;
+   width: 10px;
+   height: 10px;
+   background-color: gray;
+   border-radius: 50%;
+}
+.dots .first-dot{
+   background-color: black;
+}
+/* services */
+
+.services{
+    color: black;
+    margin: 35px ;
+}
+.services h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 18px;
+}
+/* colored boxes */
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+   width: 200px;
+   height: 200px;
+   margin: 17px;
+   
+}
+.box-1{
+    background-color: yellowgreen;
+}
+.box-2{
+    background-color: orange;
+}
+.box-3{
+    background-color: rgb(47, 47, 240);
+}
+.box-4{
+    background-color: rgb(62, 133, 62);
+}
+.box i{
+    align-self: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+}
+/* --------our portfolio----------- */
+.flex{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.port{
+    width: 200px;
+    margin: 17px;
+
+}
+/* ----------our teams ---------- */
+.imgcircle{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.c-img{
+        border-radius: 50%;
+        width: 200px;
+        margin: 15px ;    
+}
+/* -----------DESIGN SKILLS ------------- */
+.skills{
+    max-width: 1400px;
+    text-align: center;
+    margin: 100px auto;
+    font-style: italic;
+} 
+.skills h2{
+    
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+.skills p{
+        font-size: 16px;
+}
+/* -------progress bar----- */
+.textleft{
+    margin: 0 auto;
+    width: 70%;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+.col5{
+    width: 100%;
+    margin: 16px 16px;
+    vertical-align: middle;
+
+}
+.span-para{
+    display: inline-block;
+    width: 300px;
+    text-transform: uppercase;
+}
+.box1{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    vertical-align: middle;
+    background-color: #e7e7e7;
+}
+.box--1{
+    width: 90%;
+    background-color: #ea513e;
+    height: 30px;
+    text-align: left;
+}
+.box--2{
+    width: 80%;
+    background-color: #ea513e;
+    height: 30px;
+    text-align: left;
+}
+.box--3{
+    width: 70%;
+    background-color: #ea513e;
+    height: 30px;
+    text-align: left;
+}
+.box--4{
+    width: 80%;
+    background-color: #ea513e;
+    height: 30px;
+    text-align: left;
+}
+/* our contact */
+.map-flex{
+    text-align: center;
+    /* width: 1200px;
+    height: 500px; */
+}
+.flexer{
+   
+    display: flex;
+    
+}
+.contact-text{
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.contact-text p{
+    margin: 17px 0;
+}
+.b-text{
+    color: rgb(0, 2, 128);
+    font-weight: 600;
+}
+.g-text{
+    font-weight: 600;
+    color: rgb(20, 197, 29);
+}
+.r-text{
+    font-weight: 600;
+    color: rgb(230, 14, 14);
+}
+.bl-text{
+    color: black;
+    font-weight: 900;
+}
+.mail{
+    font-weight: 600;
+text-decoration: none;
+color: red;
+}
+.send{
+    width: 180px;
+    text-align: center;
+    height: 30px;
+    background-color: red;
+    color: white;
+}
+.div-center{
+    margin: 0 auto;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* -------------FOOTER----------------- */
+
+footer{
+    max-width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer, span{
+    font-weight: 600px;
+
+}
+.top{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    color: #fff;
+    background-color: red;
+}
+/* ------------------------------------Gallery section---------------------------------------------- */
+
+
+
+
+
+
+.aside{
+    background-color:#EA513E;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 100%;
+    padding: 20px 20px;
+    position: fixed;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+.downbar p{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+.downbar h1{
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+
+.text-white{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.small-1{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.logo-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.sidebar-1 {
+     align-self: center;
+font-size: 25px;
+text-transform: uppercase;
+} 
+.upper a{
+    
+        background-color: #EA513E;
+        align-self: center;
+        padding: 5px 10px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid white;
+        border-radius: 2px;
+        font-size: 12px;
+        font-weight: bold;
+   
+}
+.social--icon{
+    color: white;
+    padding: 25px 0;
+}
+.social--icon a{
+    padding: 10px;
+}
+/* ---------gallery-------------- */
+.gallery{
+    margin-left: auto;
+    width: 70%;
+}
+.gallery h1{
+    font-size: 35px;
+    text-align: center;  
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 20px; 
+}
+.right-side-bar{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.photo-1,.photo-2{
+    flex-direction: column;
+    padding: 22px;
+}
+.photo-1 img{
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.photo-2 img{
+   width: 90%;
+   border: 2px solid black;
+   border-radius: 5px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
